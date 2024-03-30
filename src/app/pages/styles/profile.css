@@ -1,0 +1,103 @@
+/* Path: clone-twitter/src/app/pages/styles/profile.css */
+@media (max-width:600px) {
+    .div-profile-padre {
+        width: 100%;
+    }
+
+    .section-img-profile {
+        justify-content: start;
+        text-align: center;
+        position: relative;
+        margin-bottom: 100px;
+    }
+
+    .section-avatar {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .back-img {
+        width: 100%;
+    }
+
+    .img-back{
+        object-fit: cover;
+        height: 190px;
+        width: 100%;
+    }
+
+    .icon-camera-back{
+        position: absolute;
+        top: 70%;
+        left: 90%;
+        background-color: rgb(217, 217, 217);
+        border-radius: 50%;
+        padding: 3px;
+    }
+
+
+    .div-camera {
+        position: absolute;
+        top: 40%;
+        left: 110px;
+        background-color: rgb(217, 217, 217);
+        border-radius: 50%;
+        padding: 3px;
+    }
+}
+
+@media (min-width:601px) {
+    
+    .div-profile-padre {
+        width: 100%;
+    }
+
+    .section-img-profile {
+        justify-content: start;
+        text-align: center;
+        position: relative;
+        margin-bottom: 100px;
+    }
+
+    .section-avatar {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .back-img {
+        width: 100%;
+    }
+
+    .img-back{
+        object-fit: cover;
+        height: 190px;
+        width: 500px;
+    }
+
+    .icon-camera-back{
+        position: absolute;
+        top: 70%;
+        left: 90%;
+        background-color: rgb(217, 217, 217);
+        border-radius: 50%;
+        padding: 3px;
+    }
+
+    .div-camera {
+        position: absolute;
+        top: 40%;
+        left: 110px;
+        background-color: rgb(217, 217, 217);
+        border-radius: 50%;
+        padding: 3px;
+    }
+}
